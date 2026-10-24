@@ -25,7 +25,7 @@ Bốn agent chỉ đọc soát bốn hướng (LAB-1 ↔ LAB-4, prototype ↔ LA
 | H4 | Mã câu hỏi Q-03 bị dẫn nhầm cho câu hỏi lô 仮 | Task quyết định H-04 |
 | H5 | Chống ghi trùng / mất mạng cho 相対 không có ở đâu (trùng FB-R) | PREMISE P-01, ADR-004; task H-05 (đã quyết, D3) |
 | H6 | Khoá 業務日 khi còn giao nhận dở / lô 仮 → việc dở không bao giờ xong (trùng FB-B 2) | PREMISE P-08; task H-06 (đã quyết, D2) |
-| H7 | Bản ghi đồng bộ tới sau khi ngày đã khoá không có lối ra | PREMISE A-07; task quyết định H-07 (chờ khách) |
+| H7 | Bản ghi đồng bộ tới sau khi ngày đã khoá không có lối ra | PREMISE A-06; task quyết định H-07 (chờ khách) |
 | H8 | 免除 quyết sau 確定 không có đường ra | Hết đối tượng khi 免除 không đổi số tiền (P-04, D1b); câu Q-30 thành task H-08 |
 | H9 | Bộ LAB-1 còn số cũ (相対 68 %, "Mục x FR") | Task quyết định H-09 |
 

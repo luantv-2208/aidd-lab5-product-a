@@ -92,11 +92,11 @@ Mã B-xx, G-xx là mã khảo sát khi break (3 agent đọc song song 17 featur
 | LOT_LIST_API:58 ↔ SCR020:207, SCR024:198 (FB-K, G-10) | Màn lấy 'lô còn hàng' nhưng API chỉ trả lô hôm nay, cắt 200 dòng | Đã sửa thiết kế — PREMISE P-12 |
 | PREMISE LAB-4 T5 ↔ SCR050:127, AI-report LAB-4 (G-N9, review H3) | Kỳ thưởng 'không theo tháng dương lịch' đọc được hai nghĩa | Đã sửa thiết kế — PREMISE mục 3 'Kỳ 完納奨励金' |
 | LOT_CREATE_API:43 và 4 API lot khác (G-06) | 5 DB function chỉ mô tả trong API, không có TECH | Giả định — PREMISE A-02 |
-| ARCH_SYSTEM:182 (G-N1) | Không có thiết kế CI và môi trường dev / staging | Giả định — PREMISE A-04 |
-| api-conventions:45 · error-codes:111 · IKO_*_API (G-N4, G-M5) | 'Không tìm thấy' lúc 404 lúc 409, cùng mã hai HTTP | Giả định — PREMISE A-05 |
-| SHOREIKIN_DB, SHIME_DB, HIKIWATASHI_DB, TESURYO_DB (B-06) | 14 bảng mới không có thiết kế RLS policy | Giả định — PREMISE A-06 |
-| ADR-002:139 ↔ RYORITSU_SHONIN_TECH:136 (B-09) | 年4回 đếm theo năm nào chưa thống nhất | Giả định — PREMISE A-08 |
-| SERI_CHOTEI_TECH:160 ↔ TEISEI_IRAI_TECH:96 (review H7) | Bản ghi đồng bộ tới sau khi ngày đã lock không có lối ra | Giả định — PREMISE A-07; tạo issue làm rõ #380 |
+| ARCH_SYSTEM:182 (G-N1) | Không có thiết kế CI và môi trường dev / staging | Giả định — PREMISE A-03 |
+| api-conventions:45 · error-codes:111 · IKO_*_API (G-N4, G-M5) | 'Không tìm thấy' lúc 404 lúc 409, cùng mã hai HTTP | Giả định — PREMISE A-04 |
+| SHOREIKIN_DB, SHIME_DB, HIKIWATASHI_DB, TESURYO_DB (B-06) | 14 bảng mới không có thiết kế RLS policy | Giả định — PREMISE A-05 |
+| ADR-002:139 ↔ RYORITSU_SHONIN_TECH:136 (B-09) | 年4回 đếm theo năm nào chưa thống nhất | Giả định — PREMISE A-07 |
+| SERI_CHOTEI_TECH:160 ↔ TEISEI_IRAI_TECH:96 (review H7) | Bản ghi đồng bộ tới sau khi ngày đã lock không có lối ra | Giả định — PREMISE A-06; tạo issue làm rõ #380 |
 | SHOREIKIN_KEISAN_TECH:163,170 (B-03) | 差額 treo khi người không mua nữa; 差額 âm lớn hơn thưởng | Tạo issue làm rõ #225 |
 | KANSA_GHI_TECH:204 ↔ ADR-001:99 (G-A1) | `ghi_kansa_kyohi` cấp cho authenticated — mở đường chèn audit giả | Tạo issue làm rõ #263 |
 | IKO_TORIKOMI_TECH:88 ↔ SHOREIKIN_DB:393 (G-M1, G-M2) | Wave 3 nạp kết quả thưởng cần FK tới bản tỷ lệ / 支払確認 không wave nào nạp | Tạo issue làm rõ #306 |
